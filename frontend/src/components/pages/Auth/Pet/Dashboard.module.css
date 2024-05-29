@@ -1,0 +1,113 @@
+.name{
+    margin-left: 15px;
+    gap: 7px;
+}
+.petlist_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2em;
+    border-bottom: solid 1px #16479d;
+}
+
+.petlist_header h1{
+    margin: 0;
+}
+
+.petlist_header a{
+    text-decoration: none;
+    background-color: #16479d;
+    color: #fff;
+    padding: .5em .8em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color .5s, color .5s;
+    border: solid 1px transparent;
+    border-radius: 5px;
+}
+.petlist_header a:hover{
+    color: #16479d;
+    background-color: transparent;
+    border: solid 1px #16479d;
+}
+
+.petlist_Container{
+    display: flex;
+    flex-direction: column;
+}
+
+.petlist_row{
+    border-bottom: 1px solid #16479d;
+    padding: 1em;
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.edit_btn{
+    text-decoration: none;
+    background-color: #fff;
+    color: #16479d;
+    padding: .5em .8em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.1s ease; /*Adiciona uma transição suave apenas para a cor*/
+    border: solid 1px #16479d;
+    border-radius: 5px;
+    margin :0 5px;
+}
+.edit_btn:hover{
+    background-color: #16479d;
+    color:#fff;
+}
+.conclude_btn{
+    text-decoration: none;
+    background-color: #fff;
+    color: #008000;
+    padding: .5em .8em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.1s ease; /*Adiciona uma transição suave apenas para a cor*/
+    border: solid 1px #008000;
+    border-radius: 5px;
+    margin :0 5px;
+}
+.conclude_btn:hover{
+    background-color: #008000;
+    color:#fff;
+}
+.delete_btn{
+    text-decoration: none;
+    background-color: #fff;
+    color: #16479d;
+    padding: .5em .8em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.1s ease; /*Adiciona uma transição suave apenas para a cor*/
+    border: solid 1px #16479d;
+    border-radius: 5px;
+    margin :0 5px;
+}
+.delete_btn:hover{
+    background-color: #16479d;
+    color:#fff;
+}
+
+
+
+.registeredButton{
+    background-color: green;
+    padding: .5em .8em;
+    border-radius: 5px;
+    color: #fff;
+}
+.petlist_row .concluir {
+    color: green;
+    border:solid 1px green
+}
+.petlist_row .concluir:hover {
+   background-color: green;
+    border:solid 1px green
+}

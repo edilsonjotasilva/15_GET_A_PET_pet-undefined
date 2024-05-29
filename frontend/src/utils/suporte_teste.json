@@ -1,0 +1,134 @@
+    [{
+        "_id": {
+        "$oid": "663f5eb7b4f3a170a896c3ec"
+        },
+        "name": "Cao do bruno 1",
+        "age": 7,
+        "weight": 12,
+        "color": "cinza lobo",
+        "images": [
+        "171543498646488.jpg",
+        "171543498646595.jpg",
+        "171543498646579.jpg"
+        ],
+        "available": false,
+        "user": {
+        "_id": {
+            "$oid": "663d10ee51b2edae68e9f559"
+        },
+        "name": "Bruno Silva",
+        "phone": "5555555"
+        },
+        "createdAt": {
+        "$date": "2024-05-11T12:04:07.246Z"
+        },
+        "updatedAt": {
+        "$date": "2024-05-14T20:00:59.602Z"
+        },
+        "__v": 0,
+        "adopter": {
+        "_id": {
+            "$oid": "663e36b20a5342a2240fb8a8"
+        },
+        "name": "Edilsoin Silva"
+        }
+    },
+    {
+        "_id": {
+        "$oid": "663f5f456506c18baa8d2fa0"
+        },
+        "name": "Cao do Bruno 2",
+        "age": 5,
+        "weight": 4,
+        "color": "Cinza claro",
+        "images": [
+        "171542918980746.jpg",
+        "171542918980778.jpg",
+        "171542918980823.jpg"
+        ],
+        "available": true,
+        "user": {
+        "_id": {
+            "$oid": "663d10ee51b2edae68e9f559"
+        },
+        "name": "Bruno Silva",
+        "phone": "5555555"
+        },
+        "createdAt": {
+        "$date": "2024-05-11T12:06:29.832Z"
+        },
+        "updatedAt": {
+        "$date": "2024-05-11T14:25:51.557Z"
+        },
+        "__v": 0,
+        "adopter": {
+        "_id": {
+            "$oid": "663e36b20a5342a2240fb8a8"
+        },
+        "name": "Edilsoin Silva"
+        }
+    },
+    {
+        "_id": {
+        "$oid": "663f79c06ff031b4c11fe0e0"
+        },
+        "name": "Cao do Edilson 1",
+        "age": 5,
+        "weight": 4,
+        "color": "Cinza edilson",
+        "images": [
+        "17154359687347.jpg",
+        "171543596873574.jpg",
+        "171543596875030.jpg"
+        ],
+        "available": true,
+        "user": {
+        "_id": {
+            "$oid": "663e36b20a5342a2240fb8a8"
+        },
+        "name": "Edilsoin Silva",
+        "phone": "5555555"
+        },
+        "createdAt": {
+        "$date": "2024-05-11T13:59:28.788Z"
+        },
+        "updatedAt": {
+        "$date": "2024-05-11T13:59:28.788Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+        "$oid": "663f79d36ff031b4c11fe0e3"
+        },
+        "name": "Cao do Edilson 2",
+        "age": 5,
+        "weight": 4,
+        "color": "Cinza edilson 2",
+        "images": [
+        "171543598794594.jpg",
+        "171543598794558.jpg",
+        "171543598794647.jpg"
+        ],
+        "available": true,
+        "user": {
+        "_id": {
+            "$oid": "663e36b20a5342a2240fb8a8"
+        },
+        "name": "Edilsoin Silva",
+        "phone": "5555555"
+        },
+        "createdAt": {
+        "$date": "2024-05-11T13:59:47.955Z"
+        },
+        "updatedAt": {
+        "$date": "2024-05-14T19:58:18.156Z"
+        },
+        "__v": 0,
+        "adopter": {
+        "_id": {
+            "$oid": "663d10ee51b2edae68e9f559"
+        },
+        "name": "Bruno Silva"
+        }
+    }]
